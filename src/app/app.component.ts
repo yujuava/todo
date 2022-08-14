@@ -6,6 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 
+@Component({
+  selector: 'app-item',
+  templateUrl: './item.component.html',
+  styleUrls: ['./item.component.css']
+})
+
+
 export class AppComponent {
 
   
@@ -34,6 +41,11 @@ export class AppComponent {
       done: false
     });
   }
+
+  remove(item:any) {
+    this.allItems.splice(this.allItems.indexOf(item), 1);
+  }
+  
   
   
 
