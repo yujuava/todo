@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 
-@Component({
-  selector: 'app-item',
-  templateUrl: './item.component.html',
-  styleUrls: ['./item.component.css']
-})
+// @Component({
+//   selector: 'app-item',
+//   templateUrl: './item.component.html',
+//   styleUrls: ['./item.component.css']
+// })
 
 
 export class AppComponent {
